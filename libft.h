@@ -29,7 +29,8 @@ char	*strdup(const char *s);
 size_t	ft_strlen(const char *s);
 int	ft_strncmp(const char *s1, const char *s2, size_t n);
 int	ft_tolower(int c);
-int	toupper(int c);
-void *memchr(const void *s, int c, size_t n);
+int	ft_toupper(int c);
+void *ft_memchr(const void *s, int c, size_t n);
+
 
 #endif
